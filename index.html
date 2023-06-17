@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Arangue</title>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <!-- Estilos de los íconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/5cde8da449.js" crossorigin="anonymous"></script>
+    <!-- Estilos de Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <!-- Botón para el cierre de los certificados -->
+    <style>
+        .fancybox-button--close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 30px;
+            height: 30px;
+            background-color: #62E1E9;
+            color: #172026;
+            border-radius: 50%;
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+    </style>
+     <!-- CSS General -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="/imagenes/logo2.png"
+</head>
+<body>
+    <!-- Menu de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#sobremi">SOBRE MI</a></li>
+            <li><a href="#portfolio">PORTAFOLIO</a></li>
+            <li id="logo"><img src="/imagenes/logonavbar2.png" alt="Logo"></li>
+            <li><a href="#experiencia">SKILLS</a></li>
+            <li><a href="#contactar">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <article>
+        <!-- Bloque de inicio -->
+        <section id="inicio">
+            <h2>Denis Arangue</h2>
+            <h3 class="hastag">#Desarrollador Web</h3>
+            <ul id="redessociales">
+                <li><a href="https://www.linkedin.com/in/denis-arangue/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <!-- <li><a href="https://twitter.com/ArangueDenis" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> -->
+                <li><a href="https://facebook.com/denis.arangue" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="https://instagram.com/denisarangue" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://wa.me/5493571559069" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </section>
+        <!-- Fin bloque de inicio -->
+        <!-- Bloque de sobre mi -->
+        <section id="sobremi">
+            <div id="imgsobremi"><img src="/imagenes/fotopropia.png" alt="Foto Denis Arangue" height="250"></div>
+            <div id="bodysobremi">
+                <h2>Sobre mí</h2>
+                <br>
+                <p>hola! Soy <strong>Denis Arangue</strong>. Bienvenido/a a mi página personal. Permíteme presentarme.</p>
+                <br>
+                <p>Me defino como una persona ordenada, creativa, responsable y que ama lo que hace, donde mi máxima es <cite>"todo es posible en la medida que tú creas que es posible"</cite> .</p>
+                <p>He desarrollado habilidades tanto en el frontend como en el backend, actualmente me encuentro haciendo la rama de React Expert en DevTalles. <img src="/imagenes/react.gif" width="17px" height="17px"></p>
+                <br>
+                <p>En mi página, encontrarás información sobre mis proyectos, herramientas y estudios realizados. Además de mi especialidades, me encanta escuchar música, tocar la guitarra, ver películas y salir a caminar, entre otros.</p>
+                <br>
+                <p>Gracias por visitar mi página. Si tienes alguna pregunta, no dudes en ponerte en contacto conmigo. Adjunto mi curriculum vitae a continuación.</p>
+                <div class="masinfo"><button type="button"><a href="/imagenes/CV Denis Arangue.pdf" target="_blank">CV</a></button></div>
+            </div>
+        </section>
+        <!-- Fin de bloque sobre mi -->
+        <!-- Bloque Portfolio -->
+        <section id="portfolio">
+            <h2>Portafolio</h2>
+            <br>
+            <h3>Una mirada más allá del texto</h3>
+            <div class="contenedor-scroll">
+                <div class="contenedor-filaportfolio">
+                    <div class="filaportfolio">
+                        <div class="card">
+                            <img src="./imagenes/proyecto5.png" alt="proyecto5">
+                            <h3>Ahorcado</h3>
+                            <div class="sep"></div>
+                            <h4>Proyecto JavaScript/TypeScript con React en DevTalles</h4>
+                            <div class="masinfo"><button type="button"><a href="https://juego-ahorcado-da.netlify.app/" target="_blank">MÁS INFO</a></button></div>
+                            <br>
+                        </div>
+                        <div class="card">
+                            <img src="./imagenes/proyecto4.png" alt="proyecto4">
+                            <h3>Blackjack</h3>
+                            <div class="sep"></div>
+                            <h4>Proyecto JavaScript en DevTalles</h4>
+                            <div class="masinfo"><button type="button"><a href="https://blackjack-flax.vercel.app/" target="_blank">MÁS INFO</a></button></div>
+                            <br>
+                        </div>
+                        <div class="card">
+                            <img src="/imagenes/proyecto3.png" alt="proyecto3">
+                            <h3>Masterdots Game</h3>
+                            <div class="sep"></div>
+                            <h4>Proyecto juego con HTML, CSS y JavaScript en Mastermind</h4>
+                            <div class="masinfo"><button type="button"><a href="https://masterdotsgame.vercel.app/" target="_blank">MÁS INFO</a></button></div>
+                            <br>
+                        </div>
+                        <div class="card">
+                            <img src="./imagenes/proyecto2.png" alt="proyecto2">
+                            <h3>Conversor de monedas</h3>
+                            <div class="sep"></div>
+                            <h4>Proyecto de conversión de monedas con HTML, CSS y JavaScript en Mastermind</h4>
+                            <div class="masinfo"><button type="button"><a href="https://conversordemonedas.vercel.app/" target="_blank">MÁS INFO</a></button></div>
+                            <br>
+                        </div>
+                        <div class="card">
+                            <img src="/imagenes/proyecto1.png" alt="proyecto3">
+                            <h3>Portfolio Luíz Martínez</h3>
+                            <div class="sep"></div>
+                            <h4>Proyecto portfolio con HTML y CSS en Mastermind</h4>
+                            <div class="masinfo"><button type="button"><a href="https://proyectofinalhtmlcss.vercel.app/" target="_blank">MÁS INFO</a></button></div>
+                            <br>
+                        </div>
+                        
+                        <!-- <div class="card">
+                            <img src="./imagenes/portfolio.jpeg" alt="proyecto4">
+                            <h3>Página 4</h3>
+                            <div class="sep"></div>
+                            <h4>Diseño web</h4>
+                            <div class="masinfo"><button type="button">MÁS INFO</button></div>
+                            <br>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin bloque Portfolio -->
+        <!-- Bloque Experiencia -->
+        <section id="experiencia">
+            <h2>Experiencia & Skills</h2>
+            <br>
+            <h3>La única forma de hacer un gran trabajo es amar lo que haces</h3>
+            <div class="gridexp">
+                <div class="cardexp">
+                    <h2><a href="#desarrolloWeb">Desarrollo Web</a></h2>
+                    <br>
+                    <p><i class="fa-brands fa-github"></i> GitHub</p>
+                    <p><i class="fa-brands fa-html5"></i> HTML</p>
+                    <p><i class="fa-brands fa-css3-alt"></i> CSS</p>
+                    <p><i class="fa-brands fa-bootstrap"></i> Bootstrap</p>
+                    <p><i class="fa-brands fa-square-js"></i> JavaScript</p>
+                    <p><i class="fa-brands fa-node-js"></i> Node.js (Express)</p>
+                    <!-- <p><i class="fa-brands fa-react"></i> React</p> -->
+                    <p><i class="fa-solid fa-database"></i> MongoDB</p>
+                    <!-- <p><i class="fa-brands fa-docker"></i> Docker</p> -->
+                </div>
+                <div class="cardexp">
+                    <h2><a href="#ciberseguridad">Ciberseguridad</a></h2>
+                    <br>
+                    <p><i class="fa-solid fa-fingerprint"></i> Técnicas OSINT</p>
+                    <p><i class="fa-solid fa-user-secret"></i> Ingeniería Social</p>
+                    <!-- <p><i class="fa-solid fa-shield-halved"></i> Hacking y Fortificación Web</p> -->
+                    <!-- <p><i class="fa-solid fa-unlock-keyhole"></i> Hacking Ético</p> -->
+                    <!-- <p><i class="fa-solid fa-wifi"></i> Hacking de Redes Inalámbricas (WIFI)</p> -->
+                    <!-- <p><i class="fa-solid fa-tower-cell"></i> Hacking de Radiofrecuencia</p> -->
+                </div>
+                <div class="cardexp">
+                    <h2><a href="#informatica">Informática</a></h2>
+                    <br>
+                    <p><i class="fa-solid fa-computer"></i> Montaje PC</p>
+                    <p><i class="fa-sharp fa-solid fa-broom"></i> Optimización PC</p>
+                    <p><i class="fa-brands fa-git-alt"></i> Git</p>
+                    <p><i class="fa-brands fa-linux"></i> Linux (Ubuntu/Kali Linux<!-- /Arch Linux/Parrot Security -->)</p>
+                </div>
+            </div>
+        </section>
+        <!-- Fin bloque Experiencia -->
+        <!-- Bloque Estudios -->
+        <section id="estudios">
+            <div>
+                <h2>Estudios</h2>
+                <br>
+                <h3>Aprender es un proceso constante o no es nada</h3>
+                <br>
+                <div>
+                    <h2 class="titulos" id="desarrolloWeb">Desarrollo Web</h2>
+                    <p><a href="imagenes/Certificado Qué lenguaje de programación aprender.png" data-fancybox="gallery" data-modal="true">¿Qué lenguaje de programación aprender? - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Domina los procesos de selección Tech.png" data-fancybox="gallery" data-modal="true">Domina los procesos de selección Tech - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Programación para principiantes - Primeros pasos.png" data-fancybox="gallery" data-modal="true">Programación para principiantes: Primeros pasos - DevTalles 2023</a></p>
+                    <p><a href="imagenes/Certificado Visual Studio Code Mejora tu velocidad para codificar.png" data-fancybox="gallery" data-modal="true">Visual Studio Code: Mejora tu velocidad para codificar - DevTalles 2023</a></p>
+                    <p><a href="imagenes/Certificado GIT+GitHub - Todo un sistema de control de versiones de cero.png" data-fancybox="gallery" data-modal="true">GIT+GitHub: Todo un sistema de control de versiones de cero - DevTalles 2023</a></p>
+                    <p><a href="imagenes/Certificado Git de Noob a Pro.png" data-fancybox="gallery" data-modal="true">GitHub: de Noob a Pro - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Crea páginas web con HTML y CSS.png" data-fancybox="gallery" data-modal="true">Crea páginas web con HTML y CSS - Mastermind 2023</a></p>
+                    <!-- <p><a href="#desarrolloweb" data-fancybox="gallery" data-modal="true">JavaScript Moderno: Guía para dominar el lenguaje - DevTalles 2023</a></p> -->
+                    <p><a href="imagenes/Certificado Fundamentos de Programación con Node.js.png" data-fancybox="gallery" data-modal="true">Fundamentos de Programación con Node.js - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Introducción a API REST.png" data-fancybox="gallery" data-modal="true">Introducción a API REST - EDteam 2023</a></p>
+                    <p><a href="imagenes/Certificado Creando una API con Node.js.png" data-fancybox="gallery" data-modal="true">Creando una API con Node.js - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Bases de datos NoSQL con MongoDB y Node.js.png" data-fancybox="gallery" data-modal="true">Bases de datos NoSQL con MongoDB y Node.js - Mastermind 2023</a></p>
+                </div>
+                <div>
+                    <h2 class="titulos" id="ciberseguridad">Ciberseguridad</h2>
+                    <p><a href="imagenes/Certificado Cómo protegerse en la red.png" data-fancybox="gallery" data-modal="true">Cómo protegerse en la red - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Introducción a técnicas OSINT.png" data-fancybox="gallery" data-modal="true">Introducción a técnicas OSINT - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Introducción a la Ingeniería Social.png" data-fancybox="gallery" data-modal="true">Introducción a Ingeniería Social - Mastermind 2023</a></p>
+                <div>
+                    <h2 class="titulos" id="informatica">Informática</h2>
+                    <p><a href="imagenes/Certificado La Biblia del Montaje de PC.png" data-fancybox="gallery" data-modal="true">La Biblia del Montaje PC - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado ¡Exprime tu PC al máximo! Curso completo de optimización de PC.png" data-fancybox="gallery" data-modal="true">Curso completo de optimización de PC - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Cómo hacer un Low Spec.png" data-fancybox="gallery" data-modal="true">Cómo hacer un Low Spec - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado La Biblia del Mantenimiento PC.png" data-fancybox="gallery" data-modal="true">La Biblia del mantenimiento PC - Mastermind 2023</a></p>
+                    <p><a href="imagenes/Certificado Linux de Noob a Pro en 9 horas.png" data-fancybox="gallery" data-modal="true">Linux de Noob a Pro - Mastermind 2023</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- Fin bloque Estudios -->
+        <!-- Bloque Contactar -->
+        <section id="contactar">
+            <h2>Contacto</h2>
+            <br>
+            <h3>Envíame tus dudas:</h3>
+            <div class="contacto">
+              <div class="column">
+                <div class="contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:denisarangue18@gmail.com" target="_blank">denisarangue18@gmail.com</a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="contact-item">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <a href="https://www.linkedin.com/in/denis-arangue" target="_blank">denis-arangue</a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="contact-item">
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/denisarangue" target="_blank">denisarangue</a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="contact-item">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <a href="https://wa.me/5493571559069" target="_blank">+54 9 3571559069</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- Fin bloque Contactar -->
+    </article>
+    <!-- Pie de página -->
+    <footer>
+        <ul>
+            <li>Copyright &copy; 2023 Denis Arangue, todos los derechos reservados.</li>
+        </ul>
+    </footer>
+    <!-- JavaScript para los certificados -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/fancybox.js"></script>
+</body>
+</html>
