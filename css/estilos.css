@@ -151,25 +151,22 @@ button{
 .contenedor-filaportfolio {
     overflow-x: scroll; /* Permite el desplazamiento horizontal */
     margin-top: 30px; /* Ajusta la separación hacia abajo */
-  }
+}
 .contenedor-filaportfolio::-webkit-scrollbar {
     width: 20px; /* Ancho de la barra de desplazamiento */
-  }
-  
+}
 .contenedor-filaportfolio::-webkit-scrollbar-thumb {
     background-color: #62E1E9; /* Color del pulgar de la barra de desplazamiento */
     border: solid #172026 1px;
     border-radius: 5px;
-  }
-  
+}
 .contenedor-filaportfolio::-webkit-scrollbar-track {
     background-color: #E0E0E0; /* Color de fondo de la barra de desplazamiento */
     border-radius: 5px;
-  }
+}
 .contenedor-scroll {
     margin-bottom: 30px; /* Ajusta la separación hacia abajo */
-  }
-  
+}
 .card{
     display: inline-block; /* Mantiene los elementos en una línea horizontal */
     margin-right: 10px; /* Espacio entre las cards */
@@ -283,10 +280,11 @@ button{
 
 /* Formulario */
 #contactar {
-    background-color: #027373;
+    background-color: #04BF9D;
     color: #172026;
     height: 250px;
     text-align: justify;
+    font-weight: bold;
 }
 #contactar h3{
     color: #172026;
@@ -328,4 +326,19 @@ footer ul{
 }
 footer ul li{
     float:left;
+}
+
+.container { 
+    text-align: justify;
+}
+h1.toggle-btn {
+    cursor: pointer;
+}
+.hidden-paragraphs {
+    display: none;
+    padding: 10px;
+    text-align: justify;
+}
+.visible {
+    display: block;
 }
